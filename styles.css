@@ -1,0 +1,95 @@
+/* Base */
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background: #000;
+  color: #B0B0B0;
+  line-height: 1.5;
+}
+h1, h2 {
+  font-family: 'Georgia', serif;
+  color: #D4AF37;
+}
+a {
+  color: #D4AF37;
+  text-decoration: none;
+}
+a:hover {
+  color: #B0B0B0;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  position: relative;
+  background: #000;
+}
+.vertical-line {
+  position: absolute;
+  left: 20px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #D4AF37;
+}
+.hero-logo {
+  max-width: 200px;
+  filter: drop-shadow(0 0 6px #333);
+}
+.tagline {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  background: #D4AF37;
+  color: #000;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+.btn:hover {
+  background: #B0B0B0;
+}
+
+/* Sections */
+.features, .cta, .promotions, .contact {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+.demo-img {
+  max-width: 300px;
+  margin-top: 1rem;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px solid #333;
+  font-size: 0.9rem;
+}
+
+/* Forms */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+input, textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #333;
+  border-radius: 4px;
+  background: #111;
+  color: #B0B0B0;
+}
